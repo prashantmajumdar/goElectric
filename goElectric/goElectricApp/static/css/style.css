@@ -687,7 +687,11 @@ footer .inner-content p a {
 .team-members {
 	margin-top: 100px;
 }
-
+.kus{
+	position: relative;
+	left: 370px;
+	top: -20px;
+}
 .team-member {
 	border: 1px solid #eee;
 	margin-bottom: 30px;
@@ -709,7 +713,7 @@ footer .inner-content p a {
 
 .team-member .thumb-container .hover-effect {
 	position: absolute;
-	background-color: rgba(243,63,63,0.9);
+	background-color:rgba(168, 243, 63, 0.9);
 	top: 0;
 	left: 0;
 	width: 100%;
