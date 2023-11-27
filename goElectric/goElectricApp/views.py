@@ -6,6 +6,7 @@ from django.contrib.auth import authenticate, login
 from django.contrib.auth.hashers import check_password
 
 # Create your views here.
+
 def index(request):
     current = { 'home': 'active'}
     return render(request, 'index.html', current)
@@ -13,6 +14,9 @@ def index(request):
 def cars(request):
     current = { 'cars': 'active'}
     return render(request, 'cars.html', current)
+
+def TataNexonEv(request):
+    return render(request, 'TataNexonEv.html')    
 
 def carsDetails(request):
     current = { 'cars': 'active'}

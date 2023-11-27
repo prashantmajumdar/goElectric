@@ -16,6 +16,7 @@ urlpatterns = [
     path('login', views.userLogin, name="login"),
     path('registration', views.registration, name="registration"),
     path('dashboard', views.dashboard, name="dashboard"),
+    path('car-details/TataNexonEv', views.TataNexonEv, name="car-details/TataNexonEv"),
     # dashboard paths
     path('dashboard/auth/sign-up.html', views.signup, name="signup"),
     path('dashboard/auth/sign-in.html', views.signin, name="signin"),
