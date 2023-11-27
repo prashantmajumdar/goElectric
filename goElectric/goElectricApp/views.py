@@ -58,6 +58,12 @@ def form(request):
     current = { 'login': 'active'}
     return render(request, 'form.html')
 
+def kia(request):
+    return render(request, 'kia.html')
+
+def bmwi7(request):
+    return render(request, 'bmwi7.html')
+
 def registration(request):
     if request.method == "POST":
         name = request.POST.get('RegiName')
