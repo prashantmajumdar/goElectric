@@ -34,9 +34,9 @@ def team(request):
     current = { 'blog': 'active'}
     return render(request, 'team.html')
 
-def teams(request):
+def terms(request):
     current = { 'blog': 'active'}
-    return render(request, 'teams.html')
+    return render(request, 'terms.html')
 
 def about(request):
     current = { 'about': 'active'}
