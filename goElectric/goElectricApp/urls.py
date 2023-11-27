@@ -17,6 +17,7 @@ urlpatterns = [
     path('registration', views.registration, name="registration"),
     path('dashboard', views.dashboard, name="dashboard"),
     path('car-details/kia', views.kia, name="kia"),
+    path('car-details/bmw-i7', views.bmwi7, name="bmw-i7"),
     # dashboard paths
     path('dashboard/auth/sign-up.html', views.signup, name="signup"),
     path('dashboard/auth/sign-in.html', views.signin, name="signin"),
