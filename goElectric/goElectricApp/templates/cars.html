@@ -69,11 +69,11 @@
               <label>Make:</label>
 
               <select class="form-control">
-                <option value="">-- All --</option>
-                <option value="">-- All --</option>
-                <option value="">-- All --</option>
-                <option value="">-- All --</option>
-                <option value="">-- All --</option>
+                <option value="Tata">-- All --</option>
+                <option value="Kia">-- All --</option>
+                <option value="MG">-- All --</option>
+                <option value="Mahindra">-- All --</option>
+                <option value="BMW">-- All --</option>
                 <option value="">-- All --</option>
                 <option value="">-- All --</option>
               </select>
@@ -144,19 +144,16 @@
               <label>Doors:</label>
 
               <select class="form-control">
-                <option value="">-- All --</option>
-                <option value="">-- All --</option>
-                <option value="">-- All --</option>
-                <option value="">-- All --</option>
+                <option value="two">-- Two --</option>
+                <option value="four">-- Four --</option>
               </select>
 
               <label>Number of seats:</label>
 
               <select class="form-control">
-                <option value="">-- All --</option>
-                <option value="">-- All --</option>
-                <option value="">-- All --</option>
-                <option value="">-- All --</option>
+                <option value="two">-- Two --</option>
+                <option value="five">-- Five --</option>
+                <option value="seven">-- Seven --</option>
               </select>
 
               <button type="submit" class="filled-button btn-block">Search</button>
@@ -306,20 +303,8 @@
       </div>
     </div>
   </div>
-
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="inner-content">
-            <p>Copyright © 2020 Company Name - Template by: <a href="https://www.phpjabbers.com/">PHPJabbers.com</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Modal -->
+    
+ <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
@@ -385,6 +370,8 @@
       </div>
     </div>
   </div>
+  
+{% include 'footer.html' %}
 </body>
 
 </html>
