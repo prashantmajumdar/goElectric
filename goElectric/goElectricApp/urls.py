@@ -19,6 +19,7 @@ urlpatterns = [
     path('car-details/TataNexonEv', views.TataNexonEv, name="car-details/TataNexonEv"),
     path('car-details/kia', views.kia, name="kia"),
     path('car-details/bmw-i7', views.bmwi7, name="bmw-i7"),
+    path('car-details/TataTiagoEV', views.TataTiagoEV, name="TataTiagoEV"),
     # dashboard paths
     path('dashboard/auth/sign-up.html', views.signup, name="signup"),
     path('dashboard/auth/sign-in.html', views.signin, name="signin"),

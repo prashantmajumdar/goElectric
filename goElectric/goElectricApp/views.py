@@ -16,7 +16,10 @@ def cars(request):
     return render(request, 'cars.html', current)
 
 def TataNexonEv(request):
-    return render(request, 'TataNexonEv.html')    
+    return render(request, 'TataNexonEv.html') 
+
+def TataTiagoEV(request):
+    return render(request, 'TataTiagoEV.html')    
 
 def carsDetails(request):
     current = { 'cars': 'active'}
