@@ -10,6 +10,7 @@ urlpatterns = [
     path('blog', views.blog, name="blog"),
     path('about', views.about, name="about"),
     path('terms', views.terms, name="terms"),
+    path('privacy-policy', views.privacypolicy, name="privacy-policy"),
     path('team', views.team, name="team"),
     path('testimonial', views.testimonial, name="testimonial"),
     path('login', views.userLogin, name="login"),

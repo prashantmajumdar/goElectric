@@ -38,6 +38,10 @@ def terms(request):
     current = { 'blog': 'active'}
     return render(request, 'terms.html')
 
+def privacypolicy(request):
+    #current = { 'blog': 'active'}
+    return render(request, 'privacy-policy.html')
+
 def about(request):
     current = { 'about': 'active'}
     return render(request, 'about-us.html')
