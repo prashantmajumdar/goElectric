@@ -57,10 +57,11 @@ def registration(request):
         password = request.POST.get('RegiPassword')
         confirmPassword = request.POST.get('RegiConfirmPassword')
         if password == confirmPassword:
+            success = {'success': 'success'}
             registration = UserCredentials(first_name=name, email=email, credentail=password)
             registration.save()
-            messages.success(request, "You're finally Registered with us, Hurray!!!")
-            return render(request, '/')
+            # messages.success(request, "You're finally Registered with us, Hurray!!!")
+            return render(request, 'form.html', success)
     return render(request, 'form.html')
 
 def userLogin(request):

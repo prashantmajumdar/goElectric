@@ -9,6 +9,13 @@
 </head>
 <body>
 	<div class="container">
+		
+		{% if success %}
+			<div class="alert alert-success" role="alert">
+				You're finally Registered with us, Hurray!!!
+		  	</div>
+		{% endif %}
+			
 		<div id="LoginAndRegistrationForm">
 			<h1 id="formTitle">Login</h1>
 			<div id="formSwitchBtn">
